@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activityTela2">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:text="NOVOS COMPONENTES"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nome: "
+        android:layout_marginBottom="30dp"
+        android:id="@+id/etNome"
+        android:minHeight="48dp"
+        />
+
+    <RadioGroup
+        android:id="@+id/rbSexo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="horizontal">
+
+
+        <RadioButton
+            android:id="@+id/rbMasculino"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="20dp"
+            android:text="MASCULINO" />
+
+        <RadioButton
+            android:id="@+id/rbFeminino"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="20dp"
+            android:text="FEMININO" />
+
+        <RadioButton
+            android:id="@+id/rbOutro"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="OUTRO" />
+    </RadioGroup>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:orientation="horizontal">
+
+        <CheckBox
+            android:id="@+id/cbCorrer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="CORRER" />
+
+        <CheckBox
+            android:id="@+id/cbNadar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="NADAR" />
+
+        <CheckBox
+            android:id="@+id/cbPassear"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="PASSEAR" />
+
+        <CheckBox
+            android:id="@+id/cbSaltar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SALTAR" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnContinuar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:text="CONTINUAR"
+        />
+
+    <TextView
+        android:id="@+id/tvInformacao"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="INFORMACOES SELECIONADAS"
+        android:layout_marginHorizontal="10dp"
+        android:textStyle="bold"
+        />
+
+
+</LinearLayout>
+

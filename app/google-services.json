@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1026604880101",
+    "project_id": "exlogin-c6301",
+    "storage_bucket": "exlogin-c6301.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1026604880101:android:30c7fcacad08c51c06440c",
+        "android_client_info": {
+          "package_name": "com.example.app1cet35"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCYOi-ClXi_NY6KeLtgvETUmnU8b2g6w_k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

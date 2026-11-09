@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activityLoginFirebase">
+
+
+
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#080A08"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:padding="28dp">
+
+            <!-- LOGO -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="CET-35"
+                android:textColor="#9CFF00"
+                android:textSize="36sp"
+                android:textStyle="bold"
+                android:letterSpacing="0.08" />
+
+            <!-- TITLE -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="45dp"
+                android:text="Bem-vindo de volta"
+                android:textColor="#FFFFFF"
+                android:textSize="27sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="Entre na sua conta para continuar."
+                android:textColor="#858585"
+                android:textSize="14sp" />
+
+            <!-- EMAIL -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="38dp"
+                android:text="E-MAIL"
+                android:textColor="#9CFF00"
+                android:textSize="12sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/edtEmail"
+                android:layout_width="match_parent"
+                android:layout_height="56dp"
+                android:layout_marginTop="10dp"
+                android:backgroundTint="#303830"
+                android:background="@android:drawable/edit_text"
+                android:paddingHorizontal="16dp"
+                android:hint="seuemail@exemplo.com"
+                android:textColor="#FFFFFF"
+                android:textColorHint="#777777"
+                android:textSize="14sp"
+                android:inputType="textEmailAddress"
+                android:singleLine="true" />
+
+            <!-- PASSWORD -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="22dp"
+                android:text="SENHA"
+                android:textColor="#9CFF00"
+                android:textSize="12sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/edtSenha"
+                android:layout_width="match_parent"
+                android:layout_height="56dp"
+                android:layout_marginTop="10dp"
+                android:backgroundTint="#303830"
+                android:background="@android:drawable/edit_text"
+                android:paddingHorizontal="16dp"
+                android:hint="Digite sua senha"
+                android:textColor="#FFFFFF"
+                android:textColorHint="#777777"
+                android:textSize="14sp"
+                android:inputType="textPassword"
+                android:singleLine="true" />
+
+            <!-- FORGOT PASSWORD -->
+            <TextView
+                android:id="@+id/txtEsqueceuSenha"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="18dp"
+                android:gravity="end"
+                android:text="Esqueceu a senha?"
+                android:textColor="#9CFF00"
+                android:textSize="13sp" />
+
+            <!-- LOGIN BUTTON -->
+            <Button
+                android:id="@+id/btnLogin"
+                android:layout_width="match_parent"
+                android:layout_height="56dp"
+                android:layout_marginTop="32dp"
+                android:backgroundTint="#9CFF00"
+                android:text="ENTRAR"
+                android:textAllCaps="false"
+                android:textColor="#080A08"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <!-- REGISTER -->
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Não tem uma conta? "
+                    android:textColor="#858585"
+                    android:textSize="13sp" />
+
+                <TextView
+                    android:id="@+id/txtCriarConta"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Criar conta"
+                    android:textColor="#9CFF00"
+                    android:textSize="13sp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</LinearLayout>

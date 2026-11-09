@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activityRecSenha">
+
+
+
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#080A08"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:padding="28dp">
+
+            <!-- LOGO -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="NEXUS."
+                android:textColor="#9CFF00"
+                android:textSize="36sp"
+                android:textStyle="bold"
+                android:letterSpacing="0.08" />
+
+            <!-- ICON -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="55dp"
+                android:text="✉"
+                android:textColor="#9CFF00"
+                android:textSize="65sp" />
+
+            <!-- TITLE -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:gravity="center"
+                android:text="Recuperar senha"
+                android:textColor="#FFFFFF"
+                android:textSize="28sp"
+                android:textStyle="bold" />
+
+            <!-- DESCRIPTION -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:gravity="center"
+                android:text="Não se preocupe! Informe o seu e-mail e enviaremos as instruções para recuperar o acesso à sua conta."
+                android:textColor="#858585"
+                android:textSize="14sp"
+                android:lineSpacingExtra="5dp" />
+
+            <!-- EMAIL LABEL -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="38dp"
+                android:text="E-MAIL"
+                android:textColor="#9CFF00"
+                android:textSize="12sp"
+                android:textStyle="bold" />
+
+            <!-- EMAIL INPUT -->
+            <EditText
+                android:id="@+id/edtEmailRecuperacao"
+                android:layout_width="match_parent"
+                android:layout_height="56dp"
+                android:layout_marginTop="10dp"
+                android:backgroundTint="#9CFF00"
+                android:hint="seuemail@exemplo.com"
+                android:paddingHorizontal="16dp"
+                android:textColor="#FFFFFF"
+                android:textColorHint="#777777"
+                android:textSize="14sp"
+                android:inputType="textEmailAddress"
+                android:singleLine="true" />
+
+            <!-- RECOVER BUTTON -->
+            <Button
+                android:id="@+id/btnRecuperarSenha"
+                android:layout_width="match_parent"
+                android:layout_height="56dp"
+                android:layout_marginTop="30dp"
+                android:backgroundTint="#9CFF00"
+                android:text="ENVIAR INSTRUÇÕES"
+                android:textAllCaps="false"
+                android:textColor="#080A08"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <!-- BACK TO LOGIN -->
+            <TextView
+                android:id="@+id/txtVoltarLogin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:padding="10dp"
+                android:text="← Voltar para o login"
+                android:textColor="#9CFF00"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+
+
+</LinearLayout>
